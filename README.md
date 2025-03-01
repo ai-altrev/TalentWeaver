@@ -1,10 +1,10 @@
-# PathPioneer Documentation Site
+# TalentWeaver Documentation Site
 
-This repository contains the documentation and project information for PathPioneer, a platform that reimagines job discovery through AI knowledge paths.
+This repository contains the documentation and project information for TalentWeaver, a platform that reimagines job discovery through AI knowledge paths.
 
 ## About the Site
 
-The documentation site is built using Jekyll, a static site generator. The site structure is designed to be simple to maintain and update, while providing a professional presentation of the PathPioneer concept.
+The documentation site is built using Jekyll, a static site generator. The site structure is designed to be simple to maintain and update, while providing a professional presentation of the TalentWeaver concept.
 
 ## Site Structure
 
@@ -89,7 +89,7 @@ This site is designed to be easily deployed to GitHub Pages:
 
 1. Push the repository to GitHub
 2. In the repository settings, enable GitHub Pages from the `docs` folder
-3. The site will be available at `https://your-username.github.io/PathPioneer/`
+3. The site will be available at `https://your-username.github.io/TalentWeaver/`
 
 ### Other Hosting Options
 
