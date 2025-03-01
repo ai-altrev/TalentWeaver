@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="documentation">
+  <aside class="doc-sidebar">
+    <nav class="doc-nav">
+      <h3>Documentation</h3>
+      <ul>
+        <li><a href="{{ '/docs/executive-summary/' | relative_url }}">Executive Summary</a></li>
+        <li><a href="{{ '/docs/technical-specification/' | relative_url }}">Technical Specification</a></li>
+        <li><a href="{{ '/docs/prototype-plan/' | relative_url }}">Prototype Plan</a></li>
+        <li><a href="{{ '/docs/market-analysis/' | relative_url }}">Market Analysis</a></li>
+        <li><a href="{{ '/docs/development-roadmap/' | relative_url }}">Development Roadmap</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <div class="doc-content">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div>
+</div>

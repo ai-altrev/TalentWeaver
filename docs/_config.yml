@@ -1,0 +1,33 @@
+title: PathPioneer
+description: Reimagining Job Discovery Through AI Knowledge Paths
+url: "https://YOUR_USERNAME.github.io" # Replace YOUR_USERNAME with your GitHub username
+baseurl: "/PathPioneer"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
